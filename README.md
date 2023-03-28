@@ -4,14 +4,16 @@
 > classes. Jill asks you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
 
 **Language**: Python
+
 **Library**: Scikit-learn,imbalanced-learn
+
 **Subject**: Supervised Learning (ML)
 
 ___________________________________________
 
 ## Analysis
 
-    It's important for the lender to understand the risk associated with accepting a request for a loan. Luickly, there is data available for lenders to understand the amount of risk they are willing to accept.  Supervised machine learning is a quick way to understand your data by various forms of analysis.  This analysis was performed to see how well different models will predict credit risk.    
+It's important for the lender to understand the risk associated with accepting a request for a loan. Luickly, there is data available for lenders to understand the amount of risk they are willing to accept.  Supervised machine learning is a quick way to understand your data by various forms of analysis.  This analysis was performed to see how well different models will predict credit risk.    
 
 ## Results:
 
@@ -66,7 +68,7 @@ Figure 6: Easy Ensemble
 
 ## Summary:
 
-    Credit risk was evaluated using multiple different machine learning models for the given dataset.  This allows us to better understand our dataset from different views.  A review of the average precision data shows that all models did a good job of reliably providing positive classification in the dataset. The models mostly varied in recall(sensitivity) and balanced accuracy score.  The Easy Ensemble Classifier scored the best of all the models for average recall.  This model was found to be the best at finding all the positive samples. 
+Credit risk was evaluated using multiple different machine learning models for the given dataset.  This allows us to better understand our dataset from different views.  A review of the average precision data shows that all models did a good job of reliably providing positive classification in the dataset. The models mostly varied in recall(sensitivity) and balanced accuracy score.  The Easy Ensemble Classifier scored the best of all the models for average recall.  This model was found to be the best at finding all the positive samples. 
 
-    In this study, we want to find all the positive samples to the best of our ability.  We want to flag only the accounts that will not pay back their credit.
-    My recommendation would be to use either the Balanced Random Forest or Easy Ensemble model to predict credit risk. I don't think it would be bad to be a little stringent on giving out credit, so Balanced Random Forest may be the better bet for a more conservative approach.  This can also depend on a lender's risk tolerance.  You want moost people to not have an issue, but the people on the bubble of good and bad credit history likely need further investigation.  
+In this study, we want to find all the positive samples to the best of our ability.  We want to flag only the accounts that will not pay back their credit.
+My recommendation would be to use either the Balanced Random Forest or Easy Ensemble model to predict credit risk. I don't think it would be bad to be a little stringent on giving out credit, so Balanced Random Forest may be the better bet for a more conservative approach.  This can also depend on a lender's risk tolerance.  You want moost people to not have an issue, but the people on the bubble of good and bad credit history likely need further investigation.  
